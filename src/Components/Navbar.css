@@ -1,0 +1,56 @@
+header{
+    height: 60px;
+    background-color: #f5f5f5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    display:inline-block;
+    margin:15px;
+    
+    
+
+}
+.contact-us a{
+    border: 3px solid blac;
+    border-radius:8px 8px;
+    position:relative;
+    right:-500px;
+}
+.contact-us a:hover{
+    background-color: #100608;
+    color:white;
+    
+}
+nav li a{
+    color:black;
+    outline:none;
+    text-decoration: none;
+    margin:2px;
+    padding:5px;
+    font-size:13px;
+
+    
+
+}
+nav li a:hover{
+    border-bottom:2px solid black;
+    transition:0.1s ease-in-out ;
+}
+.logo img{
+    width:60px;
+    position:relative;
+    left:-400px;
+}

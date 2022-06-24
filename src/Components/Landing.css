@@ -1,0 +1,75 @@
+.introduction-img {
+    /* position:relative;
+    left:900px; */
+    width: 600px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.introduction h1 {
+    margin-left: 100px;
+    position: relative;
+    top: -100px;
+
+
+
+}
+
+.my-name {
+    margin-left: 100px;
+    position: relative;
+    top: -70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+}
+.introduction button{
+    padding:15px;
+    width:100px;
+    margin-left:150px;
+    border-radius:20px 20px;
+    background-color: #100108;
+    color:white;
+    font-size:15px;
+
+}
+.introduction button:hover{
+    padding:20px;
+    transition:0.2s;
+    width:150px;
+}
+.job{
+font-weight:normal;
+margin-left:100px;
+position:relative;
+top:-50px;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    
+}
+.ig-icon{
+    font-size:45px;
+    padding:20px;
+    color:#100108
+}
+.git-icon{
+    font-size:45px;
+    padding:20px;
+    color:#100108
+}
+.twitter-icon{
+    font-size: 45px;
+    padding:20px;
+    color:#100108;
+}
