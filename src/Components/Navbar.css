@@ -48,6 +48,8 @@ nav li a{
 nav li a:hover{
     border-bottom:2px solid black;
     transition:0.1s ease-in-out ;
+    font-weight: bold;
+    
 }
 .logo img{
     width:60px;

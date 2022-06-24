@@ -1,0 +1,19 @@
+.About-Me h1{
+    color:#100108;
+    /* text-align: center; */
+}
+.About-Me p{
+    /* text-align: center; */
+    margin-top:10px;
+    font-size:20px;
+
+}
+.About-Me{
+    position: relative;
+    top:50px;
+    display:flex;
+    flex-direction: column;
+    background:#bec3bf;
+    /* width: 500px; */
+    align-items: center;
+}
