@@ -7,6 +7,12 @@ const Landing = () => {
   const handleIgClick = () => {
     window.location.href = "https://www.instagram.com/skkyfallen_/";
   };
+  const handleGitClick = () => {
+    window.location.href = "https://github.com/skkyfallen";
+  };
+  const handleTwitterClick = () => {
+    window.location.href = "https://twitter/skkyfallen";
+  };
   return (
     <div>
       <section className="introduction">
@@ -19,11 +25,11 @@ const Landing = () => {
               {" "}
               <FaInstagramSquare />
             </p>
-            <p className="git-icon">
+            <p className="git-icon" onClick={handleGitClick}>
               {" "}
               <FaGithub />
             </p>
-            <p className="twitter-icon">
+            <p className="twitter-icon" onClick={handleTwitterClick}>
               <FaTwitter />
             </p>
           </div>
